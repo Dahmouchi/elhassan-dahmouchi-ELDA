@@ -40,7 +40,7 @@ export default function HeroArea() {
                     </li>
                   </ul>
                   <div className="reviews">
-                    100+ reviews <span>(4.96 of 5)</span>
+                    100+ reviews <span>(4.96 of 5) </span>
                     <p>Five-star reviews from my esteemed clients.</p>
                   </div>
                 </div>
