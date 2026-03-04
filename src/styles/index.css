@@ -1,0 +1,38 @@
+@import "swiper/css/bundle";
+@import "react-18-image-lightbox/src/style.css";
+@import "react-modal-video/css/modal-video.css";
+
+@import "../../public/assets/css/animate.min.css";
+@import "../../public/assets/css/blog.css";
+@import "../../public/assets/css/font-awesome-pro.css";
+@import "../../public/assets/css/mobilemenu.css";
+@import "../../public/assets/fonts/remixicon.css";
+
+@import "~bootstrap/dist/css/bootstrap";
+@import "../../public/assets/css/spacing.css";
+@import "../../public/assets/css/style.css";
+@import "../../public/assets/css/responsive.css";
+
+/* ── Contact Form Feedback ── */
+.input-success {
+  color: #22c55e;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.input-error {
+  color: #ef4444;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
