@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+/* ── Hero image: disable rotation on mobile to prevent overflow-x ── */
+@media only screen and (max-width: 991px) {
+  .hero-image img {
+    rotate: 0deg !important;
+    margin-top: 0 !important;
+  }
+
+  .hero-image img:hover {
+    rotate: 0deg !important;
+  }
+}
